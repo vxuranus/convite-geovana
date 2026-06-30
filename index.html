@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Convite Digital</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convite Digital</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main class="convite fade-in">
-<div class="borda-interna">
-<p id="frase" class="frase"></p>
-<h1 id="nome"></h1>
-<p class="texto">Com muita alegria, convidamos você para celebrar este momento especial.</p>
-<section class="data-box"><span>Data</span><strong id="dataEvento"></strong></section>
-<section class="contador">
-<div><strong id="dias">00</strong><span>Dias</span></div>
-<div><strong id="horas">00</strong><span>Horas</span></div>
-<div><strong id="minutos">00</strong><span>Minutos</span></div>
-<div><strong id="segundos">00</strong><span>Segundos</span></div>
-</section>
-<section class="info">
-<p><strong>Horário:</strong> <span id="horario"></span></p>
-<p><strong>Local:</strong> <span id="local"></span></p>
-</section>
-<div id="mapa" class="mapa"></div>
-<div class="botoes">
-<a id="btnMaps" target="_blank">Como chegar</a>
-<a id="btnForms" target="_blank">Confirmar presença</a>
-</div>
-<footer>Sua presença tornará este momento ainda mais especial.</footer>
-</div>
-</main>
-<script src="script.js"></script>
+
+  <div class="petalas"></div>
+
+  <main class="convite">
+
+    <section class="topo">
+      <p id="frase" class="frase"></p>
+      <h1 id="nome" class="nome"></h1>
+
+      <p class="subtexto">
+        convida você para<br>
+        celebrar seus 15 anos
+      </p>
+    </section>
+
+    <section class="data">
+      <span id="diaEvento"></span>
+      <em id="mesEvento"></em>
+    </section>
+
+    <p class="faltam">e faltam apenas...</p>
+
+    <section class="contador">
+      <div><strong id="dias">00</strong><span>Dias</span></div>
+      <div><strong id="horas">00</strong><span>Horas</span></div>
+      <div><strong id="minutos">00</strong><span>Min</span></div>
+      <div><strong id="segundos">00</strong><span>Seg</span></div>
+    </section>
+
+    <section class="detalhes">
+      <div>
+        <h2>Horário</h2>
+        <p id="horario"></p>
+      </div>
+
+      <div>
+        <h2>Localização</h2>
+        <p id="local"></p>
+      </div>
+    </section>
+
+    <section id="mapa" class="mapa">
+      mapa
+    </section>
+
+    <section class="botoes">
+      <a id="btnMaps" target="_blank">Como chegar</a>
+      <a id="btnPresentes" target="_blank">Lista de presentes</a>
+      <a id="btnForms" target="_blank">Confirmar presença</a>
+    </section>
+
+    <footer>
+      Sua presença tornará esse momento ainda mais especial!
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
