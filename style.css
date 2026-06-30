@@ -500,3 +500,30 @@ footer {
     font-size: 58px;
   }
 }
+.frase {
+  display: block;
+  text-align: center;
+}
+
+.nome {
+  display: block;
+  text-align: center;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.data span {
+  font-size: 80px;
+  color: #4f7559;
+}
+
+.data em {
+  font-size: 34px;
+  color: #b88b2f;
+}
