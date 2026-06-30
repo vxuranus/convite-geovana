@@ -145,7 +145,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 4px;
   line-height: 1.8;
-  color: var(--dourado);
+  color:#5E86AF;
   margin-bottom: 26px;
 }
 
@@ -162,7 +162,7 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.25rem;
   line-height: 1.35;
-  color: var(--texto);
+  color:#5E86AF;
   margin-bottom: 26px;
 }
 
@@ -227,7 +227,7 @@ body {
 
     letter-spacing:3px;
 
-    color:var(--dourado);
+    color:#5E86AF;
 
     margin-bottom:26px;
 
@@ -360,7 +360,7 @@ body {
 
     letter-spacing:3px;
 
-    color:var(--verde);
+    color:#5E86AF;
 
     margin-bottom:20px;
 
@@ -386,7 +386,7 @@ body {
 
     line-height:1.8;
 
-    color:#58745c;
+    color:#5E86AF;
 
     font-size:15px;
 
@@ -448,7 +448,7 @@ footer {
   margin-top: 34px;
   font-size: 0.9rem;
   line-height: 1.6;
-  color: #6b7b62;
+  color:#5E86AF;
 }
 
 /* ===== RESPONSIVO ===== */
