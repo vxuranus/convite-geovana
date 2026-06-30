@@ -1,2 +1,79 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&display=swap");
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{background:#f6efe4;font-family:"Playfair Display",serif;display:flex;justify-content:center;padding:28px;color:#4a3a2a}.convite{max-width:450px;width:100%;background:#fffaf1;border:1px solid #c9a75c;padding:12px;box-shadow:0 20px 45px rgba(0,0,0,.15)}.borda-interna{border:1px solid rgba(201,167,92,.5);padding:42px 24px;text-align:center}.frase{color:#9b7a32;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px}h1{font-family:"Great Vibes",cursive;font-size:4rem;color:#b28a38;margin-bottom:22px;font-weight:400}.texto{line-height:1.7;margin-bottom:28px}.data-box{border-top:1px solid #d8bd79;border-bottom:1px solid #d8bd79;padding:18px 0;margin-bottom:28px}.contador{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:28px}.contador div{background:#f3e7cf;border:1px solid rgba(201,167,92,.5);padding:12px;border-radius:12px}.contador strong{display:block;color:#8a6726}.mapa{height:230px;border:1px solid rgba(201,167,92,.5);border-radius:14px;overflow:hidden;margin:24px 0}.mapa iframe{width:100%;height:100%;border:0}.botoes{display:flex;flex-direction:column;gap:12px}.botoes a{text-decoration:none;background:#b28a38;color:#fff;padding:14px;border-radius:999px;transition:.25s}.botoes a:hover{transform:translateY(-3px);background:#967126}footer{margin-top:28px}.fade-in{animation:f 1.2s}@keyframes f{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+:root {
+  --fundo: #f8f1e7;
+  --papel: #fffaf1;
+  --verde: #4f7559;
+  --verde-claro: #6f9473;
+  --dourado: #c8a15a;
+  --dourado-claro: #ead8ad;
+  --rosa: #e8b8ad;
+  --texto: #36553f;
+  --azul-suave: #5f86aa;
+  --sombra: rgba(65, 45, 25, 0.14);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(232, 184, 173, 0.22), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(200, 161, 90, 0.16), transparent 35%),
+    var(--fundo);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--texto);
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px;
+  overflow-x: hidden;
+}
+
+/* ===== PÉTALAS CAINDO ===== */
+
+.petalas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.petalas::before,
+.petalas::after {
+  content: "❀  ✿  ❀  ✿  ❀  ✿";
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  color: rgba(232, 184, 173, 0.45);
+  font-size: 22px;
+  letter-spacing: 42px;
+  animation: cairPetalas 16s linear infinite;
+}
+
+.petalas::after {
+  left: 35px;
+  font-size: 16px;
+  opacity: 0.65;
+  animation-duration: 22s;
+  animation-delay: -6s;
+}
+
+@keyframes cairPetalas {
+  from {
+    transform: translateY(-100px) rotate(0deg);
+  }
+
+  to {
+    transform: translateY(115vh) rotate(180deg);
+  }
+}
