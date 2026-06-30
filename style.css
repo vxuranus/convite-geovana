@@ -174,3 +174,220 @@ body {
   background: linear-gradient(90deg, transparent, var(--dourado), transparent);
   margin: 22px auto 0;
 }
+/* =====================================================
+   DATA
+===================================================== */
+
+.data{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    gap:14px;
+    margin-top:18px;
+    margin-bottom:32px;
+}
+
+.data span{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:95px;
+
+    font-weight:600;
+
+    line-height:.8;
+
+    color:var(--verde);
+
+}
+
+.data em{
+
+    font-family:"Alex Brush",cursive;
+
+    font-style:normal;
+
+    font-size:42px;
+
+    color:var(--dourado);
+
+    margin-bottom:10px;
+
+}
+
+/* =====================================================
+   TEXTO "FALTAM..."
+===================================================== */
+
+.faltam{
+
+    font-size:15px;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    color:var(--dourado);
+
+    margin-bottom:26px;
+
+}
+
+/* =====================================================
+   CONTADOR
+===================================================== */
+
+.contador{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:12px;
+
+    margin-bottom:48px;
+
+}
+
+.contador div{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.contador strong{
+
+    width:68px;
+
+    height:68px;
+
+    border-radius:20px;
+
+    background:linear-gradient(
+        180deg,
+        #6e9b78,
+        #4f7559
+    );
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    font-family:"Cormorant Garamond",serif;
+
+    box-shadow:
+        0 12px 22px rgba(79,117,89,.22);
+
+    transition:.3s;
+
+}
+
+.contador strong:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.contador span{
+
+    margin-top:10px;
+
+    font-size:13px;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:var(--verde);
+
+}
+
+/* =====================================================
+   DETALHES
+===================================================== */
+
+.detalhes{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+    margin-bottom:38px;
+
+}
+
+.bloco{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.detalhes h2{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:220px;
+
+    height:48px;
+
+    border:1px solid var(--dourado);
+
+    border-radius:999px;
+
+    font-size:14px;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    color:var(--verde);
+
+    margin-bottom:20px;
+
+    background:white;
+
+}
+
+#horario{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:70px;
+
+    color:var(--verde);
+
+    line-height:1;
+
+}
+
+#local{
+
+    max-width:300px;
+
+    line-height:1.8;
+
+    color:#58745c;
+
+    font-size:15px;
+
+}
