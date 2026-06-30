@@ -77,3 +77,100 @@ body {
     transform: translateY(115vh) rotate(180deg);
   }
 }
+/* ===== CONVITE / PAPEL ===== */
+
+.convite {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 460px;
+  background:
+    linear-gradient(rgba(255, 250, 241, 0.94), rgba(255, 250, 241, 0.94)),
+    repeating-linear-gradient(
+      45deg,
+      rgba(200, 161, 90, 0.035) 0,
+      rgba(200, 161, 90, 0.035) 2px,
+      transparent 2px,
+      transparent 8px
+    );
+  border: 1.5px solid var(--dourado);
+  border-radius: 26px;
+  padding: 54px 28px 38px;
+  text-align: center;
+  box-shadow: 0 28px 60px var(--sombra);
+  overflow: hidden;
+  animation: aparecer 1s ease both;
+}
+
+.convite::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(200, 161, 90, 0.45);
+  border-radius: 20px;
+  pointer-events: none;
+}
+
+.convite::after {
+  content: "✦";
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--dourado);
+  font-size: 18px;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== TOPO ===== */
+
+.topo {
+  position: relative;
+  padding-top: 28px;
+}
+
+.frase {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.8;
+  color: var(--dourado);
+  margin-bottom: 26px;
+}
+
+.nome {
+  font-family: "Alex Brush", cursive;
+  font-size: clamp(5rem, 20vw, 7.3rem);
+  font-weight: 400;
+  line-height: 0.9;
+  color: var(--verde);
+  margin-bottom: 22px;
+}
+
+.subtexto {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  color: var(--texto);
+  margin-bottom: 26px;
+}
+
+.subtexto::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--dourado), transparent);
+  margin: 22px auto 0;
+}
