@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+@font-face {
+    font-family: "Magnolia";
+    src: url("./fonts/Magnolia.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root{
   --fundo:#f8f1e7;
@@ -59,13 +64,12 @@ body{
 }
 
 .nome{
-    font-family:'Great Vibes', cursive;
-    font-size:7rem;
-    font-weight:400;
-    color:var(--azul);
-    line-height:.9;
-    margin:18px 0 28px;
-    text-align:center;
+    font-family: "Magnolia", cursive;
+    font-size: 6.8rem;
+    font-weight: normal;
+    color: var(--azul);
+    line-height: 1;
+    margin: 18px 0 28px;
 }
 
 .subtexto{
