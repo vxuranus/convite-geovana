@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Emasline";
-    src: url("./fonts/EmaslineScript.otf") format("opentype");
+    font-family: "Galteniya";
+    src: url("./fonts/Galteniya.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -66,11 +66,11 @@ body{
 }
 
 .nome{
-    font-family: "Emasline", cursive;
-    font-size: 8rem;
+    font-family: "Galteniya", cursive;
+    font-size: 6.8rem;
     font-weight: normal;
     color: var(--azul);
-    line-height: .9;
+    line-height: 1;
     margin: 18px 0 28px;
 }
 
