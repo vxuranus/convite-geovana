@@ -73,7 +73,7 @@ body{
 }
 
 .subtexto{
-  font-family:'Cormorant Garamond',serif;
+  font-family: "Westonia", cursive;
   color:var(--azul);
   font-size:1.15rem;
   line-height:1.4;
