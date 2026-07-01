@@ -66,8 +66,9 @@ body{
 }
 
 .nome{
-    font-family: "Emasline" !important;
+    font-family: "Emasline", cursive;
     font-size: 8rem;
+    font-weight: normal;
     color: var(--azul);
     line-height: .9;
     margin: 18px 0 28px;
