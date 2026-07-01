@@ -1,7 +1,6 @@
 @font-face {
     font-family: "Emasline";
-    src:
-        url("./fonts/Emasline.otf") format("opentype");
+    src: url("./fonts/EmaslineScript.otf") format("opentype");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
