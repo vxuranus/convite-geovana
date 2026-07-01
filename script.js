@@ -1,8 +1,8 @@
 const NOME = "Geovana";
 const FRASE = "Um dia que será\ninesquecível";
 const DATA_EVENTO = "2026-07-19T13:00:00";
-const HORARIO = "13:00";
-const LOCAL = "Coloque aqui o endereço";
+const HORARIO = "12:00";
+const LOCAL = "Avila's Espaço e Lazer";
 const LINK_GOOGLE_MAPS = "https://www.google.com/maps";
 const GOOGLE_MAPS_IFRAME = "";
 const LINK_GOOGLE_FORMS = "#";
