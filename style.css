@@ -169,7 +169,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
-    margin-bottom: 48px;
+    margin-bottom: 70px;
 }
 
 .contador div {
@@ -202,8 +202,9 @@ footer {
 
 .detalhes {
     display: grid;
-    gap: 22px;
-    margin-bottom: 28px;
+    gap: 78px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 .detalhes article {
@@ -324,4 +325,10 @@ footer {
         height: 52px;
         font-size: 25px;
     }
+    .detalhes {
+    gap: 58px;
+    margin-top: 55px;
+}
+    .contador {
+    margin-bottom: 55px;
 }
