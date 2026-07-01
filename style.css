@@ -305,3 +305,7 @@ footer{
         font-size:25px;
     }
 }
+.convite *:not(.nome):not(.data em):not(#horario) {
+    font-family: 'Cormorant Unicase', serif !important;
+    text-transform: uppercase;
+}
