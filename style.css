@@ -1,8 +1,8 @@
 @font-face {
-    font-family: "Galteniya";
-    src: url("./fonts/Galteniya.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Galteniya";
+  src: url("./fonts/Galteniya.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
@@ -66,12 +66,12 @@ body{
 }
 
 .nome{
-    font-family: "Galteniya", cursive;
-    font-size: 6.8rem;
-    font-weight: normal;
-    color: var(--azul);
-    line-height: 1;
-    margin: 18px 0 28px;
+  font-family: "Galteniya", cursive !important;
+  font-size: 7rem;
+  font-weight: normal;
+  color: var(--azul);
+  line-height: 1;
+  margin: 18px 0 28px;
 }
 
 .subtexto{
