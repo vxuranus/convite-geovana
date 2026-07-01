@@ -48,10 +48,11 @@ body {
     box-shadow: 0 20px 45px rgba(80, 60, 30, .12);
 }
 
-.convite *:not(.nome) {
+.convite :where(p, span, em, strong, h2, a, footer, .frase, .subtexto, .faltam, #horario, #local) {
     font-family: 'Cormorant Unicase', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
-
 .monograma {
     width: 62px;
     height: 62px;
