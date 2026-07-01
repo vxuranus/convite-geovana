@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Magnolia";
-    src: url("./fonts/Magnolia.ttf") format("truetype");
+    font-family: "Westonia";
+    src: url("./fonts/Westonia.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -64,11 +64,11 @@ body{
 }
 
 .nome{
-    font-family: "Magnolia", cursive;
-    font-size: 6.8rem;
+    font-family: "Westonia", cursive;
+    font-size: 6.5rem;
     font-weight: normal;
     color: var(--azul);
-    line-height: 1;
+    line-height: .95;
     margin: 18px 0 28px;
 }
 
