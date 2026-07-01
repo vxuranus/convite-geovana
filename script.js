@@ -5,7 +5,7 @@ const HORARIO = "12:00";
 const LOCAL = "Avila's Espaço e Lazer";
 const LINK_GOOGLE_MAPS = "https://maps.app.goo.gl/uxL5KbVN7XQWNgK9A";
 const GOOGLE_MAPS_IFRAME = "";
-const LINK_GOOGLE_FORMS = "#";
+const LINK_GOOGLE_FORMS = "https://docs.google.com/forms/d/e/1FAIpQLSebN9N6HwB4cCvkiU-OWS2wvflwWCgHvu8q1u4Ul19aTsligg/viewform?usp=sharing&ouid=112706203523219906860";
 const LINK_PRESENTES = "#";
 
 const meses = [
