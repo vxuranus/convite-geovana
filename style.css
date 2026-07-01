@@ -75,7 +75,7 @@ body{
 }
 
 .subtexto{
-  font-family: "Westonia", cursive;
+  font-family: 'Montserrat', sans-serif;
   color:var(--azul);
   font-size:1.15rem;
   line-height:1.4;
