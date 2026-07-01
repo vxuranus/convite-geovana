@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Westonia";
-    src: url("./fonts/Westonia.otf") format("opentype");
+    src: url("./fonts/Westonia.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -64,7 +64,7 @@ body{
 }
 
 .nome{
-    font-family: "Westonia";
+    font-family: "Westonia", cursive;
     font-size: 6.5rem;
     font-weight: normal;
     color: var(--azul);
