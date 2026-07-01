@@ -278,3 +278,15 @@ footer{
     font-size:25px;
   }
 }
+/* Fonte padrão para todos os textos */
+.frase,
+.subtexto,
+.faltam,
+.contador span,
+.detalhes h2,
+#horario,
+#local,
+.botoes a,
+footer {
+    font-family: 'Montserrat', sans-serif;
+}
