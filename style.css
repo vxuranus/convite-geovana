@@ -1,11 +1,4 @@
-@font-face {
-  font-family: "Galteniya";
-  src: url("./fonts/Galteniya.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root{
   --fundo:#f8f1e7;
@@ -66,12 +59,12 @@ body{
 }
 
 .nome{
-  font-family: "Galteniya", cursive !important;
-  font-size: 7rem;
-  font-weight: normal;
-  color: var(--azul);
-  line-height: 1;
-  margin: 18px 0 28px;
+    font-family:'Parisienne', cursive;
+    font-size:7rem;
+    font-weight:400;
+    color:var(--azul);
+    line-height:.9;
+    margin:18px 0 28px;
 }
 
 .subtexto{
