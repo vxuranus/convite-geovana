@@ -50,7 +50,6 @@ body {
 
 .convite *:not(.nome) {
     font-family: 'Cormorant Unicase', serif;
-    text-transform: uppercase;
 }
 
 .monograma {
