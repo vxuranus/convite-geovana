@@ -68,11 +68,8 @@ body{
     font-size: 6.5rem;
     font-weight: normal;
     color: var(--azul);
-
     line-height: .95;
-
     margin: 18px 0 28px;
-
     position: relative;
     top: 15px;
 }
