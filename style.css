@@ -47,12 +47,6 @@ body {
     text-align: center;
     box-shadow: 0 20px 45px rgba(80, 60, 30, .12);
 }
-
-.convite :where(p, span, em, strong, h2, a, footer, .frase, .subtexto, .faltam, #horario, #local) {
-    font-family: 'Cormorant Unicase', serif;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-}
 .monograma {
     width: 62px;
     height: 62px;
@@ -280,4 +274,21 @@ footer {
         height: 52px;
         font-size: 25px;
     }
+}
+.frase,
+.subtexto,
+.data span,
+.data em,
+.faltam,
+.contador strong,
+.contador span,
+.detalhes h2,
+#horario,
+#local,
+.mapa,
+.botoes a,
+footer {
+    font-family: 'Cormorant Unicase', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
