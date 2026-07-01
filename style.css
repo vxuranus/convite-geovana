@@ -65,12 +65,11 @@ body{
 }
 
 .nome{
-  font-family: "Emasline";
-  font-size:6.8rem;
-  font-weight:400;
-  color:var(--azul);
-  line-height:.9;
-  margin:18px 0 28px;
+    font-family: "Emasline" !important;
+    font-size: 8rem;
+    color: var(--azul);
+    line-height: .9;
+    margin: 18px 0 28px;
 }
 
 .subtexto{
