@@ -41,7 +41,7 @@ body {
     justify-content: center;
     align-items: flex-start;
 
-    padding: 0;
+    padding: 32px 12px;
     overflow-x: hidden;
 }
 
@@ -51,11 +51,8 @@ body {
     width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
-
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
+    align-items: center;
     padding: 32px 12px;
 }
 
@@ -318,11 +315,13 @@ footer {
         height: 52px;
         font-size: 25px;
     }
+
     .detalhes {
-    gap: 58px;
-    margin-top: 55px;
-}
-        .contador {
+        gap: 58px;
+        margin-top: 55px;
+    }
+
+    .contador {
         margin-bottom: 55px;
     }
 }
