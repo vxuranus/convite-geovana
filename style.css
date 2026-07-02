@@ -105,7 +105,7 @@ footer {
     font-size: .82rem;
     line-height: 2;
     color: var(--azul);
-    margin-bottom: 22px;
+    margin-bottom: 115px;
 }
 
 .nome {
@@ -114,15 +114,16 @@ footer {
     font-weight: normal;
     color: var(--azul);
     line-height: .95;
-    margin: 18px 0 28px;
+    margin: 0 0 55px;
     position: relative;
-    top: 15px;
+    top: 0;
 }
 
 .subtexto {
     color: var(--azul);
     font-size: .9rem;
     line-height: 1.8;
+    margin-bottom: 95px;
 }
 
 /* DIVISOR */
@@ -141,7 +142,7 @@ footer {
     justify-content: center;
     align-items: flex-end;
     gap: 12px;
-    margin: 24px 0;
+    margin: 0 0 120px;
 }
 
 .data span {
@@ -161,7 +162,7 @@ footer {
 /* CONTADOR */
 
 .faltam {
-    margin: 30px 0;
+    margin: 0 0 35px;
     color: var(--azul);
     font-size: .82rem;
 }
@@ -170,7 +171,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
 }
 
 .contador div {
@@ -203,9 +204,8 @@ footer {
 
 .detalhes {
     display: grid;
-    gap: 78px;
-    margin-top: 70px;
-    margin-bottom: 40px;
+    gap: 130px;
+    margin-bottom: 80px;
 }
 
 .detalhes article {
@@ -244,7 +244,8 @@ footer {
 .botoes {
     display: flex;
     flex-direction: column;
-    gap: 11px;
+    gap: 20px;
+    margin-top: 45px;
 }
 
 .botoes a {
