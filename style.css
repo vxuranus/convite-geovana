@@ -52,16 +52,17 @@ body {
 
 .convite {
     width: 100%;
-    max-width: 430px;
+    max-width: 760px;
+    min-height: 1800px;
+
     background: var(--papel);
     border: 1.5px solid var(--dourado);
-    border-radius: 22px;
-    padding: 38px 22px 28px;
+    border-radius: 0;
+
+    padding: 55px 70px 60px;
     text-align: center;
-    box-shadow: 0 20px 45px rgba(80, 60, 30, .12);
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+
+    box-shadow: none;
 }
 
 /* TIPOGRAFIA PADRÃO */
