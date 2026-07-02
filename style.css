@@ -191,22 +191,25 @@ footer {
 }
 
 .contador strong {
-    width: 58px;
-    height: 58px;
-    border-radius: 16px;
-    background: var(--verde);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #f1bd2b;
     color: white;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 28px;
-    font-weight: 500;
-    box-shadow: 0 10px 18px rgba(0, 0, 0, .12);
+
+    font-size: 32px;
+    font-weight: 600;
+
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, .18);
 }
 
 .contador span {
-    margin-top: 8px;
-    font-size: 10px;
+    margin-top: 16px;
+    font-size: 11px;
     color: var(--azul);
 }
 
