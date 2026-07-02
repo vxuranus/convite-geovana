@@ -56,13 +56,14 @@ body {
     min-height: 1800px;
 
     background: var(--papel);
-    border: 1.5px solid var(--dourado);
+    border: 2px solid var(--dourado);
     border-radius: 0;
 
     padding: 55px 70px 60px;
     text-align: center;
 
     box-shadow: none;
+    position: relative;
 }
 
 /* TIPOGRAFIA PADRÃO */
